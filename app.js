@@ -45,7 +45,7 @@ function chooseOperator(value) {
     return;
    }
     else if (previousinput !== "") {
-        calculateResult()
+        solveResult()
     }
     operator = value
     previousinput = input
